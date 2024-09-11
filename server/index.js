@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({limit: "32mb", extended: true}))
 // CORS Configuration: The cors middleware is applied to allow cross
 app.use(cors())
 
-// Every Rounter is going to start with /posts/
+// Import Post Route. Every Rounter is going to start with /posts/
 app.use('/posts', postRoutes)
 
 
